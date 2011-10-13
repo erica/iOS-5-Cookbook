@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1864" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="15" propertyAccessControl="none" initialViewController="3">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="865"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="9">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8" userLabel="First Responder" sceneMemberID="firstRespodner"/>
+                <viewController id="2" customClass="ModalViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="12">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie ipsum sed turpis laoreet non pharetra odio fermentum. Nam eu ipsum turpis. Nunc mauris quam, ultricies ut pellentesque et, sodales sed erat. Etiam in gravida nisi. Fusce pharetra metus eu sapien blandit sollicitudin. Vivamus eu justo in nisi sagittis mattis et at urna. Fusce placerat libero ac odio ultrices in sodales enim convallis. Curabitur diam diam, interdum at malesuada sit amet, placerat nec augue. Quisque dapibus rhoncus blandit. Fusce blandit aliquam mi vel faucibus. Donec ipsum elit, feugiat ac consequat quis, sagittis sed tortor. Nulla nulla leo, rhoncus a molestie non, lobortis at eros. Suspendisse potenti. Vestibulum euismod consequat eros, et congue nisl tincidunt sed. Donec nulla arcu, luctus non lacinia vel, iaculis eu urna. Mauris sit amet elementum lacus. Donec libero turpis, eleifend vel sollicitudin et, posuere vitae est. Fusce consectetur eros a lorem pharetra fringilla. Vestibulum urna sapien, euismod vitae tincidunt sed, laoreet ac dolor.
+
+Maecenas viverra pulvinar elit, et pharetra ipsum consectetur vitae. Pellentesque metus est, cursus et rhoncus in, tempus nec magna. Pellentesque pulvinar justo et lectus cursus sodales. Suspendisse hendrerit lobortis mollis. Morbi sapien tellus, ultricies sed interdum sed, scelerisque nec felis. Vestibulum erat purus, sollicitudin quis ultricies id, sollicitudin ut odio. Nunc sagittis tincidunt magna non malesuada. Mauris in lacinia metus. Proin convallis lacinia nisl sed hendrerit. Sed facilisis dolor vel tortor vehicula ultricies. Suspendisse et consequat nibh. Morbi vitae orci odio, quis cursus nisi.
+
+Suspendisse potenti. Maecenas nisl ligula, elementum sit amet interdum eget, malesuada et nunc. Mauris aliquam velit vitae sapien commodo aliquet. Integer pellentesque tortor vel nisi ultricies consectetur dapibus lectus fringilla. Pellentesque vitae magna id velit scelerisque feugiat. Aliquam erat volutpat. Nunc mi lectus, pretium ornare feugiat eleifend, ornare vitae leo. Quisque non lorem ut libero porttitor pellentesque sit amet in sapien. Duis ac diam id massa vestibulum accumsan. Cras a volutpat tellus. Curabitur tortor augue, tristique sit amet convallis ut, viverra vitae massa. Nullam vel metus tortor, at molestie purus. Vestibulum elementum lobortis pulvinar. Maecenas cursus hendrerit justo in mattis. Quisque iaculis lectus sed libero viverra dapibus auctor lacus fermentum. Suspendisse potenti. Duis pharetra nulla ut justo pretium sagittis auctor odio lacinia. Proin pellentesque massa a lorem pellentesque tempor.
+
+Nam eu nisl tellus, id fermentum enim. Duis non metus risus. Aenean sed turpis dui. Donec viverra ipsum viverra nunc rutrum ut posuere mauris sagittis. Nulla facilisi. Morbi laoreet nunc nec magna egestas nec mollis nisi placerat. Aenean eget molestie dolor. In at aliquet sapien. Donec tincidunt est sed metus mattis eu vestibulum dolor fringilla. Vestibulum scelerisque massa in magna dapibus ornare. Maecenas elementum posuere quam a rutrum. Pellentesque lobortis sapien nec lacus gravida a facilisis enim condimentum. Nullam ultrices malesuada consequat.
+
+Maecenas vel lorem vel quam pretium accumsan at ultricies ante. Morbi mi enim, consequat eu interdum quis, tempus eget nibh. Donec arcu ligula, accumsan sit amet elementum non, venenatis sit amet nunc. Curabitur facilisis luctus diam, in feugiat magna malesuada in. Donec luctus fringilla ligula sed venenatis. Aliquam sed arcu nulla. Morbi fringilla fringilla sem, in vehicula augue mattis id. Pellentesque tincidunt tristique mauris, at vestibulum nunc iaculis vitae. Sed vitae tellus ac est congue pretium vel eu ante. Pellentesque mi erat, vulputate sed gravida quis, tincidunt in nulla.
+
+Suspendisse tempor adipiscing libero, et euismod sapien hendrerit in. Nulla vitae arcu neque. Duis consectetur pretium quam, ac semper mi congue in. Sed sed risus risus. Nunc tempor faucibus turpis, nec rhoncus mauris vehicula et. Duis tincidunt nunc nec sapien pulvinar in tempor nisl aliquet. Nulla ante mi, ultricies eu pharetra nec, mollis quis odio. Integer quam ipsum, gravida ac commodo eget, rhoncus eget ipsum. Aenean dictum sem id elit ultricies tincidunt. Nunc ac dolor ipsum. Donec eu lorem quis sapien dictum mattis a vel massa. Suspendisse viverra nunc at erat pellentesque eget sollicitudin lorem interdum.
+
+Nullam non velit placerat lorem rhoncus tempus. In hac habitasse platea dictumst. Quisque at nunc sed lorem laoreet vulputate laoreet non lacus. Nunc eu massa quis metus congue facilisis ac eu erat. Sed sagittis justo non nisi gravida sit amet suscipit ante sodales. Suspendisse vitae ultricies lacus. Aenean consectetur imperdiet augue vel dictum. Ut iaculis dictum nibh vel gravida. Aenean sed ligula a mi porta ultricies. Donec suscipit quam vitae dolor imperdiet dignissim.
+
+Nullam ultrices dolor ut odio egestas feugiat. Sed at hendrerit tellus. Integer ac sapien urna. Duis porttitor consequat ligula, quis ultrices eros vehicula ut. Nunc velit libero, luctus ac viverra ultrices, mollis quis diam. In tempor egestas malesuada. In vitae sapien velit, vitae consectetur quam. Sed aliquam, urna non tempus pharetra, dui orci scelerisque mi, vitae pharetra neque felis vel neque. Aenean a libero vel mauris euismod consectetur. Pellentesque vel justo sed velit varius fringilla. Vivamus feugiat odio ac ipsum ultricies posuere. Aliquam rutrum ipsum dapibus elit vestibulum iaculis. Suspendisse laoreet, augue ut euismod scelerisque, arcu ligula euismod libero, eu posuere tellus odio ut leo. Curabitur dui lorem, luctus eget ornare vitae, viverra vitae libero. Duis neque ipsum, facilisis eu pretium sit amet, rutrum et tellus. Vestibulum sodales consectetur lorem, ut tincidunt orci congue non. Curabitur feugiat, elit vitae bibendum tincidunt, nisl arcu mollis elit, at tempus dolor enim vel tellus. Maecenas est dolor, placerat at gravida ut, tempor vitae turpis. Donec mattis mollis urna, quis elementum est imperdiet vel. Ut elementum, justo et varius venenatis, felis turpis ultrices ipsum, sed faucibus mi diam vitae lacus.
+
+Nullam imperdiet, elit ut congue auctor, lacus erat faucibus purus, vitae elementum diam libero in quam. Cras in ipsum ac risus varius tristique in a mi. Fusce eget turpis odio, et sollicitudin neque. Morbi interdum odio id massa sodales ac accumsan urna dictum. Donec libero eros, viverra quis interdum eget, porttitor ut turpis. Aenean consequat scelerisque orci, vel volutpat nulla lacinia non. Praesent sodales, mi porttitor rutrum feugiat, erat mauris dignissim nisl, sit amet dapibus leo quam non sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in dolor erat. Duis non magna nec dui rhoncus luctus. Donec in odio et enim consectetur adipiscing. Quisque et ipsum est, id congue leo. Phasellus vehicula venenatis nunc, in pulvinar arcu eleifend in. Proin auctor, lorem vel aliquam rutrum, urna massa blandit elit, quis gravida ante ipsum id lorem. In nec sem ac diam luctus aliquam quis ut leo. Proin aliquam nisi eget leo volutpat condimentum scelerisque libero sagittis. Nam porta sodales volutpat. Fusce volutpat ornare nulla vel posuere. Nullam sed dui in lacus mattis tristique sed at ligula. Suspendisse sapien elit, venenatis eu volutpat sed, sodales rutrum eros.
+
+Morbi quis mauris nisi, ut iaculis diam. Maecenas non diam elit. Mauris et tortor a purus aliquet ullamcorper id sed erat. Nunc ac diam neque, ut ultrices dolor. Nam vel sapien ut arcu pretium condimentum eu pharetra lorem. Phasellus vulputate, libero fermentum tincidunt dignissim, diam tellus placerat neque, nec posuere turpis urna ut libero. Proin condimentum odio lacus, sit amet molestie tellus. Cras congue pulvinar eleifend. Integer eu magna sit amet mi faucibus elementum at nec odio. Vivamus in risus vel dui tempor convallis at vel elit. Vivamus in leo ante. Donec ultrices porttitor leo, nec aliquet mi aliquet nec. Aliquam at elementum tortor.
+
+</mutableString>
+                                <color key="textColor" red="0.21839712195798239" green="0.17147308186577781" blue="0.83695652173913038" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Information" id="5">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="13">
+                            <connections>
+                                <action selector="done:" destination="2" id="14"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedTopBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedBottomBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedOrientationMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="178" y="329"/>
+        </scene>
+        <scene sceneID="11">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" userLabel="First Responder" sceneMemberID="firstRespodner"/>
+                <navigationController storyboardIdentifier="infoNavigationController" id="3" sceneMemberID="viewController">
+                    <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedTopBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedBottomBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedOrientationMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.21839712195798239" green="0.17147308186577781" blue="0.83695652173913038" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="7"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-356" y="329"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="ModalViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ModalViewController.h"/>
+            <relationships/>
+        </class>
+    </classes>
+</document>
