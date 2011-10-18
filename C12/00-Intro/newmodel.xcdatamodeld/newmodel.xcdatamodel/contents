@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="851" systemVersion="11A511" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Department" representedClassName="Department">
+        <attribute name="groupName" optional="YES" attributeType="String"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="department" inverseEntity="Person"/>
+    </entity>
+    <entity name="Person" representedClassName="Person">
+        <attribute name="birthday" optional="YES" attributeType="Date"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="department" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="members" inverseEntity="Department"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="198" positionY="252" width="128" height="90"/>
+        <element name="Department" positionX="178" positionY="117" width="128" height="75"/>
+    </elements>
+</model>
