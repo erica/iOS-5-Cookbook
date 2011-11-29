@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	8EBA74EC13B8F8AD004E7F05 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 8EFE26EC13B8FBD00054D56F /* Hello World */;
+		activeTarget = 8EBA74F413B8F8AD004E7F05 /* Hello World */;
+		codeSenseManager = 8EFE270213B8FBD20054D56F /* Code sense */;
+		executables = (
+			8EFE26EC13B8FBD00054D56F /* Hello World */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 330890192;
+			PBXWorkspaceStateSaveDate = 330890192;
+		};
+		sourceControlManager = 8EFE270113B8FBD20054D56F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8EBA74F413B8F8AD004E7F05 /* Hello World */ = {
+		activeExec = 0;
+		executables = (
+			8EFE26EC13B8FBD00054D56F /* Hello World */,
+		);
+	};
+	8EFE26EC13B8FBD00054D56F /* Hello World */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Hello World";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	8EFE270113B8FBD20054D56F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	8EFE270213B8FBD20054D56F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
