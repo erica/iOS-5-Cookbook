@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1881" systemVersion="11A511" targetRuntime="iOS.CocoaTouch.iPad" nextObjectID="32" propertyAccessControl="none" initialViewController="7">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="876"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="13">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" userLabel="First Responder" sceneMemberID="firstRespodner"/>
+                <viewController storyboardIdentifier="Main View" id="6" customClass="Hello_WorldViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="10">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9"/>
+                    <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedTopBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedBottomBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedOrientationMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-497" y="-1696"/>
+        </scene>
+        <scene sceneID="15">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" userLabel="First Responder" sceneMemberID="firstRespodner"/>
+                <navigationController storyboardIdentifier="Root Navigation" id="7" sceneMemberID="viewController">
+                    <simulatedMetricsInferredSentinel key="simulatedStatusBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedTopBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedBottomBarMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedOrientationMetrics"/>
+                    <simulatedMetricsInferredSentinel key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6" kind="relationship" relationship="rootViewController" id="11"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1479" y="-1696"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedMetricsInferredSentinel key="topBar"/>
+        <simulatedMetricsInferredSentinel key="bottomBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
