@@ -6,7 +6,6 @@
 
 #import "DragView.h"
 
-
 @implementation DragView
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -40,6 +39,8 @@
 	self.transform = CGAffineTransformMakeTranslation(translation.x + tx, translation.y + ty);
 	self.transform = CGAffineTransformRotate(self.transform, theta);	
 	self.transform = CGAffineTransformScale(self.transform, scale, scale);
+    
+    NSLog(@"Xscale: %f YScale: %f Rotation: %f", self.xscale, self.yscale, self.rotation * (180 / M_PI));
 }
 
 - (void) handlePan: (UIPanGestureRecognizer *) uigr

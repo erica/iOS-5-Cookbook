@@ -19,7 +19,7 @@
  
  */
 
-#define USES_TOUCHkit	1
+#define USES_TOUCHkit	0
 
 /*
  Insert the following definition and replace UIWindow with WINDOW_CLASS in your Application Delegate class code.

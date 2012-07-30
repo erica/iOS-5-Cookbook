@@ -18,38 +18,7 @@
 
 @implementation TestBedViewController
 
-- (void) updateButterfly: (NSTimer *) timer
-{
-    [UIView animateWithDuration:0.6f animations:^(void){
-        butterflyView.center = [butterflyView randomCenterInView:self.view withInset:10.0f];        
-    }];
-}
-
-- (void) loadView
-{
-    [super loadView];
-    self.view.backgroundColor = [UIColor whiteColor];
-	self.navigationController.navigationBar.tintColor = COOKBOOK_PURPLE_COLOR;
-    
-    // Load butterfly images
-	NSMutableArray *bflies = [NSMutableArray array];
-	for (int i = 1; i <= 17; i++)
-		[bflies addObject:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"bf_%d", i] ofType:@"png"]]];
-
-    butterflyView = [[UIImageView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 60.0f, 60.0f)]; 
-	butterflyView.animationImages = bflies;
-	butterflyView.animationDuration = 0.75f;
-	[self.view addSubview:butterflyView];
-	[butterflyView startAnimating];
-    
-    [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(updateButterfly:) userInfo:nil repeats:YES];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return YES;
-}
-@end
+w@end
 
 #pragma mark -
 

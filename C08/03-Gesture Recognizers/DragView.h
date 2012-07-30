@@ -6,6 +6,7 @@
 
 
 #import <UIKit/UIKit.h>
+#import "UIView-Transform.h"
 
 
 @interface DragView : UIImageView <UIGestureRecognizerDelegate>

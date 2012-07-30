@@ -12,10 +12,12 @@
 
 #define CAPWIDTH    110.0f
 #define INSETS      (UIEdgeInsets){0.0f, CAPWIDTH, 0.0f, CAPWIDTH}
-#define BASEGREEN   [[UIImage imageNamed:@"green.png"] resizableImageWithCapInsets:INSETS]
-#define ALTGREEN    [[UIImage imageNamed:@"green2.png"] resizableImageWithCapInsets:INSETS]
-#define BASERED     [[UIImage imageNamed:@"red.png"] resizableImageWithCapInsets:INSETS]
-#define ALTRED      [[UIImage imageNamed:@"red2.png"] resizableImageWithCapInsets:INSETS]
+#define BASEGREEN   [[UIImage imageNamed:@"green-out.png"] resizableImageWithCapInsets:INSETS]
+#define ALTGREEN    [[UIImage imageNamed:@"green-in.png"] resizableImageWithCapInsets:INSETS]
+#define BASERED     [[UIImage imageNamed:@"red-out.png"] resizableImageWithCapInsets:INSETS]
+#define ALTRED      [[UIImage imageNamed:@"red-in.png"] resizableImageWithCapInsets:INSETS]
+#define BASEGRAY     [[UIImage imageNamed:@"gray-out.png"] resizableImageWithCapInsets:INSETS]
+#define ALTGRAY      [[UIImage imageNamed:@"gray-in.png"] resizableImageWithCapInsets:INSETS]
 
 @interface TestBedViewController : UIViewController
 {

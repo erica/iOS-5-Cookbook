@@ -37,18 +37,6 @@ UIColor *getColor(NSString *hexColor)
 
 @implementation TestBedViewController
 
-// Return the letter that starts each section member's text
-- (NSString *) firstLetter: (NSInteger) section
-{
-    return [[ALPHA substringFromIndex:section] substringToIndex:1];
-}
-
-// Return an array of items that appear in each section
-- (NSArray *) itemsInSection: (NSInteger) section
-{
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF beginswith[cd] %@", [self firstLetter:section]];
-    return [crayonColors.allKeys filteredArrayUsingPredicate:predicate];
-}
 
 // Return an array of section titles for index
 - (NSArray *)sectionIndexTitlesForTableView:(UITableView *)aTableView 
