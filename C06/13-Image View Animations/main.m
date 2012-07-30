@@ -17,8 +17,40 @@
 @end
 
 @implementation TestBedViewController
+- (void) updateButterfly: (NSTimer *) timer
+{
+	UIView *butterfly = [self.view viewWithTag:300];
+	
+	[UIView beginAnimations:nil context:UIGraphicsGetCurrentContext()];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	[UIView setAnimationDuration:0.5f];
+	
+	butterfly.center = [butterfly randomCenterInView:self.view withInset:10.0f];
+	
+	[UIView commitAnimations];
+}
 
-w@end
+- (void) viewDidLoad
+{
+	self.navigationController.navigationBar.tintColor = COOKBOOK_PURPLE_COLOR;
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+	// Load butterfly images
+	NSMutableArray *bflies = [NSMutableArray array];
+	for (int i = 1; i <= 17; i++)
+		[bflies addObject:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"bf_%d", i] ofType:@"png"]]];
+    
+	butterflyView = [[UIImageView alloc] initWithFrame:CGRectMake(40.0f, 300.0f, 60.0f, 60.0f)];
+	butterflyView.tag = 300;
+	butterflyView.animationImages = bflies;
+	butterflyView.animationDuration = 0.75f;
+	[self.view addSubview:butterflyView];
+	[butterflyView startAnimating];
+	
+	// start timer
+	[NSTimer scheduledTimerWithTimeInterval:1.5f target:self selector:@selector(updateButterfly:) userInfo:nil repeats:YES];
+}
+@end
 
 #pragma mark -
 
