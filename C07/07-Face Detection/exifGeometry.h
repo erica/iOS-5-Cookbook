@@ -1,3 +1,4 @@
+/* PLEASE SEE https://github.com/erica/Camera-Image-Helper FOR UPDATED MATERIAL */
 //
 //  exifGeometry.h
 //  HelloWorld
